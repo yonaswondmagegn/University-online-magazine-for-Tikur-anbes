@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>magazine</title>
+    <script src="{% static 'home.js' %}" defer></script>
+    <script src="{% static 'hometwo.js' %}" defer></script>
+</head>
+<body>
+    <div id="darkwhite" class="darkwhite"></div>
+   
+    <nav>
+        <img src="{% static 'home.png' %}" class="navimage hover" id="navimageone" alt="" class="home">
+        <img src="{% static 'micon.png' %}" class="navimage" id="navimagetwo" class="magazine">
+        
+    </nav>
+   <div id="secone" class="secone">
+   
+    
+   
+   
+        <div class="section">
+            <div class="texts">
+                <h1 class="topheader">
+                    Hakim 2021/2022 <br>
+                    YearBook Magazine
+                </h1>
+                <p1 class="disc">
+                    The graduation organizing committee proudly presents <br>
+                    Yearbook magazine the online version Enjoy!
+                </p1>
+            </div>
+            <input type="button" id="open_button" class="open_button" value="Open">
+            <img src="" id="slidimage" alt="">
+    
+        </div>
+        <div class="magpagecont" id="magcont">
+            <dvi class="magazinepages">
+                <img src="" class="magimge magimg1" id="imgone">
+                <img src="" class="magimge magimg2" id="imgtwo">
+            </dvi>
+            <div class="coutner">
+                <h3 class="pagecounttext">You where in page </h3>
+            </div>
+    
+        </div>
+    
+
+     <div id="profcontainer">
+        <img src="" alt="" id="profimage">
+        <h3 id="profname"></h3>
+    </div>  
+
+
+   </div>
+   <div id="sectwo" class="sectwo none">
+    <div class="conttwo">
+        <div class="flipcont">
+            <img src="" class="direcimg" id="magleft">
+            <img src="" class="direcimg " id="magright" alt="">
+        </div>
+       <div class="slidbuttons">
+        <button id="slidbtnone">prev</button>
+        <button id="slidbtntwo">next</button>
+       </div>
+    </div>
+   </div>
+
+   
+</body>
+</html>

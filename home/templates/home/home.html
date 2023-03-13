@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'cs.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakim</title>
+</head>
+<body>
+    
+
+    <script src="{% static 'eyob.js' %}" defer></script>
+    <!-- <img src="{% static '1.jpg' %}" class="hipo"> -->
+   <div class="allc">
+    <div class="int form" id="first">  
+        <input class="textfild" autocomplete="off" type="text" placeholder="Inter you name" id="text_one" ><br><br>
+        
+        <input class="textfild" type="text" placeholder="Inter your school_id" id = "text_two"><br><br>
+         <button onclick="submit()" class="btn" id="btn">submit</button>
+        
+    </div>
+    
+
+    <div class="prof none" id="prof">
+       <div class="prof__image">
+        <img src="" id="profimage" class="img" alt="">
+       </div>
+        <h3 id="profname"></h3>
+        <input type="text" class="textfild" name="name" id="name"><br>
+        <input type="text" class="textfild" id="user_id"><br>
+        <input type="password" class="textfild" name="" placeholder="Enter passwrod" id="passone"><br>
+        <input type="password" class="textfild" placeholder="Confirm password" name="" id="passtwo">
+        <input type="button" class="textfild" id="btntwo" value="register">
+
+    </div>
+
+   </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+   
+    
+</body>
+</html>
+
+
+

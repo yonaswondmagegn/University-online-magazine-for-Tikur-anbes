@@ -1,0 +1,218 @@
+#profimage{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+.secone{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+}
+.none{
+    display: none;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    padding: 0rem;
+    margin-top: 3rem;
+    
+}
+.texts{
+    margin-left: 2rem;
+}
+p1{
+    width: auto;
+    margin: 1rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    
+}
+.topheader{
+    margin-bottom: 0;
+}
+#slidimage{
+    width: 15rem;
+    height: 20rem;
+    box-shadow: 1px 1px 3rem white;
+    margin-left: 0rem;
+}
+
+#profcontainer{
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 1rem;
+    
+    
+}
+#profname{
+    margin: 3rem;
+}
+.magpagecont{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0rem;
+    margin-right: 4rem;
+    margin-top: 6rem;
+    
+    
+    
+}
+.magazinepages{
+    margin: 2rem;
+}
+.firstn{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    height: 100vh;
+    margin:0;
+    margin-top: 1rem;
+    padding:1rem;
+    padding-top: 0rem;
+    border-right: .5px solid rgb(104, 104, 104);
+}
+.navimage{
+    padding: .5rem;
+
+}
+
+.magimage{
+    width: 30rem;
+    height: 40rem;
+     
+}
+.magimge{
+    width: 12rem;
+ 
+    height: 15rem;
+    
+}
+.magimg1{
+    transform: rotatey(1deg);
+    box-shadow: -2rem 2rem 10rem white;
+}
+.magimg2{
+    transform: rotateY(-1deg);
+ 
+    box-shadow: 2rem 2rem 2rem white;
+
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.direcimg{
+    width: 40%;
+    height: 90vh;
+    margin: 1rem;
+    border: solid whitesmoke;
+    box-shadow: 2rem 2rem 2rem whitesmoke;
+}
+.flipcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    
+}
+.slidbuttons{
+    position: absolute;
+    left: 50vw;
+    bottom: 3vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.open_button{
+    margin: 2rem;
+    margin-left: 0;
+    padding: .5rem;
+    width: 10rem;
+    color: white;
+    background: linear-gradient(150deg, rgb(77, 77, 247), blue ,rgb(32, 32, 89));
+    border-radius: .5rem;
+}
+.darkwhite{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    height: 100vh;
+    width: 68%;
+    background-color:  #f2ebe1b8;;
+}
+
+
+
+.hover{
+    background-color: rgb(255, 132, 0);
+    
+}
+.pagecounttext{
+    padding-top: 7rem;
+}
+
+
+@media (max-width:1243px) {
+    .magpagecont{
+       flex-direction: column;
+       justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0rem;
+        margin-top: 0rem;
+        
+        
+    }
+  
+    .magimge{
+        width: 10rem;
+        height: 13rem;
+        
+    }
+    .pagecounttext{
+        padding-top: 0rem;
+    }
+   
+}
+@media (max-width:550px) {
+    .magimge{
+        width: 6rem;
+        height: 10rem;
+        
+    }
+    .section{
+        margin-top: 6rem;
+    }
+    nav{
+        padding: 0rem;
+    }
+    .navimage{
+        padding: .1rem;
+        border-radius: 2rem;
+    }
+    
+}
+@media (max-width:1002px){
+    #magright{
+        display: none;
+    }
+    #magleft{
+        width: 70vw;
+    }
+}
